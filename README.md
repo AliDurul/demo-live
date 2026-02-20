@@ -1,60 +1,59 @@
+# Social App
 
-<div id="user-content-toc">
-  <ul align="left">
-    <summary><h1 style="display: inline-block">Notes App</h1></summary>
-  </ul>
-</div>
+A basic social media app built with React, Vite, Material UI, and React Router.
 
-<table>
-   <thead>
-        <tr>
-            <th>What's used in this app ?</th>
-            <th>How to run ?</th>
-            <th>Author</th>
-        </tr>
-    </thead>
-  <tbody>
-  <tr>
-    <td> 
-      <li> Javascript
-      <li> Css
-      <li> Html
-      <li> Local Storage
-    </td>
-    <td>  <h4>Once you clone the project</h4>  
-      
- 1) open index.html with Go Live in vs code
-    
-   </td>
-    <td> <li> <a href="https://github.com/AliDurul" target="_blank">Take a look at my other projects</a> <li> <a href="https://www.linkedin.com/in/ali-durul/" target="_blank">Visit me on Linkedin</a> 
-  </tr>
-  <tr>
-    <td colspan="3"><h3>What is this project about ?</h3> 
-<p>
-In this project user can take note and later on can edit or delete the note. All the notes saved local storage. User is able to filter the notes with different options.
-</p>
-    </td>
-  </tr>
-      </tbody>
-</table>
+## Current Features
 
+- Feed page with mock posts
+- Profile page with user details
+- Friends page with friend cards
+- Messages page with chat-style UI
+- Responsive layout (desktop + mobile drawer)
+- Dark / Light mode toggle
+- Routing with nested pages
 
-<div id="user-content-toc">
-  <ul align="left">
-    <summary><h2>How does my project look</h2></summary>
-  </ul>
-</div>
+## Tech Stack
 
+- React
+- Vite
+- Material UI
+- React Router DOM
+- Zustand
+- Faker (mock data)
 
-[Live Link](https://notes-app-mu.vercel.app)
+## Getting Started
 
-![notesApp](https://github.com/AliDurul/Notes-App/assets/80897590/7b5b7515-e6e9-47c8-b62d-afd82d885f35)
+1. Install dependencies:
 
-<div id="user-content-toc">
-  <ul align="left">
-    <summary><h2>Feedback and Collaboration</h2></summary>
-  </ul>
-</div>
-I value your feedback and suggestions. If you have any comments, questions, or ideas for improvement regarding this project or any of my other projects, please don't hesitate to reach out.<br>
-I'm always open to collaboration and welcome the opportunity to work on exciting projects together.<br>
-Thank you for visiting my project. I hope you have a wonderful experience exploring it, and I look forward to connecting with you soon!
+```bash
+npm install
+```
+
+2. Run the app:
+
+```bash
+npm run dev
+```
+
+3. Build for production:
+
+```bash
+npm run build
+```
+
+## Features To Add
+
+- User authentication (login/register)
+- Real backend API integration
+- Create / edit / delete posts
+- Like, comment, and share system
+- Real-time chat with WebSocket
+- Friend requests and notifications
+- Search users and posts
+- Profile editing and image upload
+- Save posts / bookmarks
+- Pagination or infinite scroll
+
+## Notes
+
+This project currently uses mock data for learning and practice.

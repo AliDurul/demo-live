@@ -1,0 +1,13 @@
+- AI AGENT should give suggestions based on this project codebase and strucrure.
+- AI AGENT should not suggest code that has been deleted in the recent edits.
+- what is used in this project;
+  - React
+  - React Router
+  - Redux Toolkit
+  - Tailwind CSS
+  - Shadcn UI
+  - Vite
+  - useActionState
+  - zod validations
+- AI agent should advice regarding to the best practices in React and the libraries used in this project.
+- AI AGENT should not suggest code that is not related to this project.

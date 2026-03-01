@@ -1,2 +1,0 @@
-- ai agent should check if there is a components from mui css then use it instead of creating a new one just.
-- ai agent should follow ui pattern from mui css and use it to create new components if needed.

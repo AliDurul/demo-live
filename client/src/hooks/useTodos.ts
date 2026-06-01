@@ -7,7 +7,7 @@ import {
 } from "../features/todoSlice";
 import { useAppDispatch } from "../state/hooks";
 
-const BASE_URL = "http://localhost:8000/api";
+const BASE_URL = "https://ch11-todoapi.onrender.com/api";
 
 export const useTodos = () => {
   const dispatch = useAppDispatch();

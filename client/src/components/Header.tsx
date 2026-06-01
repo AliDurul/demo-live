@@ -1,4 +1,3 @@
-import React from "react";
 
 //* 1. way to give type to props
 // export default function Header({ title }: { title: string }) {

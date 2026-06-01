@@ -25,7 +25,7 @@ const cors = require("cors");
 //   }
 
 const corsOptions = {
-  origin: ["http://localhost:5173"],
+  origin: ["http://localhost:5173", "https://ch11-todo-pro.vercel.app"],
   methods: "GET, PUT, POST, DELETE, PATCH",
   allowedHeaders: ["Content-Type", "Authorization"],
   exposedHeaders: ["Content-Length", "X-Custom-Header"],

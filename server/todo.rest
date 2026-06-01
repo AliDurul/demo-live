@@ -1,0 +1,33 @@
+get http://localhost:8000/api/todos
+
+###
+
+post http://localhost:8000/api/todos
+Content-Type: application/json
+
+{
+    "title": "Learn Node.js",
+    "description": "Understand the basics of Node.js and how to build RESTful APIs."
+}
+
+###
+
+patch http://localhost:8000/api/todos/2/toggle
+
+
+###
+
+get http://localhost:8000/api/todos/1
+
+###
+
+put http://localhost:8000/api/todos/1
+Content-Type: application/json
+
+{
+    "description": "Understand the basics of "
+}
+
+###
+
+delete http://localhost:8000/api/todos/1
